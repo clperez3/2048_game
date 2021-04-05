@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+
+}
+.cell {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+h1{
+    color:green;
+}
+
+div{
+    font-size: 5px;
+}
